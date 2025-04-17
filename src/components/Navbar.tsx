@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between py-4 px-8">
+    <nav className="flex items-center justify-between py-4 px-8 bg-white text-black">
       <div className="flex items-center">
         <Link href="/" className="flex items-center">
           <span className="ml-2 text-xl font-semibold">Furniro</span>
@@ -12,9 +12,8 @@ const Navbar = () => {
       
       <div className="hidden md:flex space-x-8">
         <Link href="/#home" className="font-medium" scroll={false}>Home</Link>
-        <Link href="/#products" className="font-medium" scroll={false}>Products</Link>
-        <Link href="/#collections" className="font-medium" scroll={false}>Collections</Link>
-        <Link href="/#testimonials" className="font-medium" scroll={false}>Testimonials</Link>
+        <Link href="/#shop" className="font-medium" scroll={false}>Shop</Link>
+        <Link href="/#about" className="font-medium" scroll={false}>About</Link>
         <Link href="/#contact" className="font-medium" scroll={false}>Contact</Link>
       </div>
       

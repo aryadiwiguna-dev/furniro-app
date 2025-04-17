@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 const GallerySection = () => {
   const galleryImages = [
-    '/chair.jpg',
+    '/classic_chair.jpg',
     '/sofa-white.jpg',
     '/chair.jpg',
-    '/chair.jpg',
+    '/sofa.jpg',
     '/chair-black.jpg',
-    '/chair-black.jpg',
-    '/sofa-white.jpg',
+    '/chair_wood.jpg',
+    '/living_room.jpg',
   ];
 
   return (

@@ -6,7 +6,7 @@ const HeroBanner = () => {
       
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src="/hero.jpg"
+          src="/hero_section.jpg"
           alt="Hero Background"
           fill
           className="object-cover"
